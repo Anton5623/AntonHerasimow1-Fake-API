@@ -2,20 +2,20 @@
   "users": [
     {
       "id": 1,
-      "name": "Alice",
-      "email": "alice@example.com",
+      "name": "Anton",
+      "email": "anton@example.com",
       "role": "admin"
     },
     {
       "id": 2,
-      "name": "Bob", 
-      "email": "bob@example.com",
+      "name": "Vlad", 
+      "email": "vlad@example.com",
       "role": "user"
     },
     {
       "id": 3,
-      "name": "Charlie",
-      "email": "charlie@example.com",
+      "name": "Nazar",
+      "email": "nazar@example.com",
       "role": "user"
     }
   ],
