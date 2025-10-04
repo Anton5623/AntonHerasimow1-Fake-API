@@ -1,12 +1,59 @@
 {
   "users": [
-    { "id": 1, "name": "Alice", "email": "alice@example.com", "role": "admin" },
-    { "id": 2, "name": "Bob", "email": "bob@example.com", "role": "user" },
-    { "id": 3, "name": "Charlie", "email": "charlie@example.com", "role": "user" }
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Bob", 
+      "email": "bob@example.com",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "email": "charlie@example.com",
+      "role": "user"
+    }
   ],
   "posts": [
-    { "id": 1, "title": "Hello REST", "userId": 1, "tags": ["intro", "rest"] },
-    { "id": 2, "title": "JSON Tips", "userId": 2, "tags": ["json"] },
-    { "id": 3, "title": "Lab Work 3", "userId": 3, "tags": ["university", "api"] }
+    {
+      "id": 1,
+      "title": "Hello REST API",
+      "userId": 1,
+      "tags": ["intro", "rest", "api"],
+      "content": "Introduction to REST API principles"
+    },
+    {
+      "id": 2,
+      "title": "JSON Server Tips",
+      "userId": 2, 
+      "tags": ["json", "server"],
+      "content": "How to use JSON Server for mocking APIs"
+    },
+    {
+      "id": 3,
+      "title": "JavaScript Basics",
+      "userId": 3,
+      "tags": ["javascript", "programming"],
+      "content": "Fundamentals of JavaScript programming"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 2,
+      "text": "Great introduction!"
+    },
+    {
+      "id": 2, 
+      "postId": 2,
+      "userId": 1,
+      "text": "Very helpful, thanks!"
+    }
   ]
 }
