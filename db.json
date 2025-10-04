@@ -55,5 +55,49 @@
       "userId": 1,
       "text": "Very helpful, thanks!"
     }
+  ],
+  "subscriptions": [
+    {
+      "id": 1,
+      "ownerId": 1,
+      "plan": "premium",
+      "status": "active",
+      "price": 29.99
+    },
+    {
+      "id": 2,
+      "ownerId": 3,
+      "plan": "basic", 
+      "status": "active",
+      "price": 9.99
+    },
+    {
+      "id": 3,
+      "ownerId": 2,
+      "plan": "pro",
+      "status": "expired",
+      "price": 19.99
+    },
+    {
+      "id": 4,
+      "ownerId": 1,
+      "plan": "basic",
+      "status": "active",
+      "price": 9.99
+    },
+    {
+      "id": 5,
+      "ownerId": 3,
+      "plan": "premium",
+      "status": "pending",
+      "price": 29.99
+    },
+    {
+      "id": 6,
+      "ownerId": 2,
+      "plan": "basic",
+      "status": "active",
+      "price": 9.99
+    }
   ]
 }
