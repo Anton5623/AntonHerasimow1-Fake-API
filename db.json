@@ -8,7 +8,7 @@
     },
     {
       "id": 2,
-      "name": "Vlad", 
+      "name": "Vlad",
       "email": "vlad@example.com",
       "role": "user"
     },
@@ -29,17 +29,24 @@
     },
     {
       "id": 2,
-      "title": "JSON Server Tips",
-      "userId": 2, 
-      "tags": ["json", "server"],
-      "content": "How to use JSON Server for mocking APIs"
+      "title": "Digital JSON Server Tips",
+      "userId": 2,
+      "tags": ["json", "server", "digital"],
+      "content": "How to use JSON Server for Digital APIs and REST"
     },
     {
       "id": 3,
       "title": "JavaScript Basics",
       "userId": 3,
       "tags": ["javascript", "programming"],
-      "content": "Fundamentals of JavaScript programming"
+      "content": "Fundamentals of JavaScript programming and Digital technologies"
+    },
+    {
+      "id": 4,
+      "title": "Web Development Guide",
+      "userId": 1,
+      "tags": ["web", "development"],
+      "content": "Complete guide to modern web development"
     }
   ],
   "comments": [
@@ -50,10 +57,16 @@
       "text": "Great introduction!"
     },
     {
-      "id": 2, 
+      "id": 2,
       "postId": 2,
       "userId": 1,
       "text": "Very helpful, thanks!"
+    },
+    {
+      "id": 3,
+      "postId": 3,
+      "userId": 2,
+      "text": "Nice tutorial on JavaScript"
     }
   ],
   "subscriptions": [
@@ -67,7 +80,7 @@
     {
       "id": 2,
       "ownerId": 3,
-      "plan": "basic", 
+      "plan": "basic",
       "status": "active",
       "price": 9.99
     },
